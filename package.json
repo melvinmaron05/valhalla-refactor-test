@@ -1,0 +1,29 @@
+{
+  "name": "technical-test",
+  "version": "1.0.0",
+  "description": "Valhalla Technical Test",
+  "main": "src/refactor-this/index.js",
+  "scripts": {
+    "start": "node src/do-not-refactor/server.js | serve src/refactor-this",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/Blvnp_Developers/technical-test.git"
+  },
+  "keywords": [
+    "technical",
+    "test"
+  ],
+  "author": "AJ Catarina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/Blvnp_Developers/technical-test/issues"
+  },
+  "homepage": "https://gitlab.com/Blvnp_Developers/technical-test#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "serve": "^11.3.2"
+  }
+}
